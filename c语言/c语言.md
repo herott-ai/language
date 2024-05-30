@@ -1731,7 +1731,7 @@ The  realloc()  function returns a pointer to the newly allocated memory, which 
 
 void print_hello();
 int a;  // 声明
-int a=9; // 定义
+int a=9; // 定义       // 这个a不会报重定义吗
 struct person {
     char name[20];
     int age;
